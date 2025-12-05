@@ -113,6 +113,15 @@ Essas transformações reduzem a cardinalidade, melhoram o tamanho do modelo e f
 
 ---
 
-> Este projeto foca exclusivamente na **modelagem**; não há páginas de relatório prontas.  
+> O arquivo `dashboard-ecommerce-dax.pbix` foca exclusivamente na **modelagem**; não há páginas de relatório prontas.  
 > A ideia é servir como base para futuros dashboards de vendas seguindo boas práticas de Star Schema no Power BI.
+>
+> O arquivo `dashboard-vendas-star-schema.pbix` também com o modelo em estrela:  
+> ➞ Fato_Vendas relacionada às dimensões Dim_Produto, Dim_Segmento, Dim_País, Dim_Desconto e Dim_Calendário.​  
+> ➞ Dashboard de vendas com visuais como linha de tendência temporal, mapa por país, pizza por segmento, barras de lucro por produto e análise de descontos.​
 
+---
+
+### Dashboard de Vendas
+![Diagrama Entidade-Relacionamento](./img/der-dashboard.png)
+![Dashboard de Vendas](./img/dashboard.png)
